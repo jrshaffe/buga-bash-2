@@ -32,6 +32,6 @@ spec:
         description: Game changing api
   source:
     git:
-      url: https://github.com/sample-accelerators/customer-profile.git
+      url: https://github.com/jrshaffe/buga-bash-2.git
       ref:
         branch: main
