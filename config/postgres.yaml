@@ -3,10 +3,11 @@ kind: Postgres
 metadata:
   name: customer-profile-database
 spec:
-  memory: 800Mi
-  cpu: "0.8"
-  # storageClassName: standard
-  storageSize: 2G
+  memory: 500Mi
+  cpu: "0.4"
+  storageClassName: default
+  monitorStorageClassName: default
+  storageSize: 1G
   pgConfig:
     dbname: customer-profile-database
     username: pgadmin
